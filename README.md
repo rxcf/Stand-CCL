@@ -2,8 +2,7 @@
  <img src="https://cdn.discordapp.com/icons/948318760786342008/a_712ab34950f69d6f6f62d76c117862fb.png" alt="Stand CCL">
 </p>
 
-<h3 align="center">[Stand.gg](https://stand.gg)</h3>
-
+<h3 align="center">Stand.gg</h3>
 
 ---
 
