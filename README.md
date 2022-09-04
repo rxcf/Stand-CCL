@@ -132,7 +132,7 @@
 - **reportgriefing[player]** — Griefing
 - **reportexploits[player]** — Exploits
 - **reportbugabuse[player]** — Game Bug Exploits
-- **reportannoying[player] ** — Annoying Me
+- **reportannoying[player]** — Annoying Me
 - **reporthate[player]** — Using Hate Speech
 - **reportvcannoying[player]** — Annoying Me
 - **reportvchate[player]** — Using Hate Speech
