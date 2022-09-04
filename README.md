@@ -34,7 +34,7 @@
 - **bailall [on/off]** — Never Wanted All
 - **giveotrall [on/off]** — Off The Radar All
 - **armall** — Give All Weapons
-- **ammoall** —
+- **ammoall** — Give All Ammo For Their Current Weapon
 - **paragiveall** — Give All Parachute
 - **gift[player]** — Gift Spawned Vehicle
 - **givesh[player]** — Give Script Host
@@ -44,12 +44,6 @@
 - **arm[player]** — Give All Weapons
 - **ammo[player]** —  Give Ammo For Their Current Weapon
 - **paragive[player]** — Give Parachute
-- **** — 
-- **** — 
-- **** — 
-- **** — 
-- **** — 
-- **** — 
 
 ## Neutral Commands<a name = "neutral_cmds"></a>
 
@@ -68,10 +62,9 @@
 - **snack[player] [on/off]** — Drop P's & Q's
 - **furry[player]** — Turn Into Random Animal
 - **beast[player]** — Turn Into Beast
-- **** — 
-- **** — 
-- **** — 
-- **** — 
+- **as[player]** — Issue Commands On Their Behalf
+- **commendhelpful[player]** — Commend Helpful
+- **commendfriendly[player]** — Commend Friendly
 
 ## Rude Commands<a name = "rude_cmds"></a>
 
@@ -136,40 +129,27 @@
 - **ceoban[player]** — CEO/MC Ban
 - **infiniteloading[player]** — Infinite Loading Screen
 - **ring[player]** — Infinite Phone Ringing
+- **reportgriefing[player]** — Griefing
+- **reportexploits[player]** — Exploits
+- **reportbugabuse[player]** — Game Bug Exploits
+- **reportannoying[player] ** — Annoying Me
+- **reporthate[player]** — Using Hate Speech
+- **reportvcannoying[player]** — Annoying Me
+- **reportvchate[player]** — Using Hate Speech
+- **kick[player]** — Smart Kick
+- **breakup[player]** — Breakup Kick
+- **breakdown[player]** — Breakdown Kick
+- **loveletterkick[player]** — Love Letter Kick
+- **orgasmkick[player]** — Orgasm Kick
+- **blacklist[player]** — Blacklist Kick
+- **hostkick[player]** — Host Kick
+- **nonhostkick[player]** — Non-Host Kick
+- **pickupkick[player]** — Invalid Pickup Kick
 
 ## Toxic Commands<a name = "toxic_cmds"></a>
 
 - **crashall**  — Elegant Crash All
-- **** — 
-
-
-## WILL BE ADDED ON RIGHT POSITIONS SOON...
-  Issue Commands On Their Behalf — Command: as[player] — Can be used by other players with the Neutral Commands permission
-		Join CEO/MC — Command: ceojoin[player] [on/off]
-		Invite To Pong — Command: pong[player]
-		Increment Commend/Report Stats
-			Helpful — Command: commendhelpful[player] — Can be used by other players with the Neutral Commands permission
-			Friendly — Command: commendfriendly[player] — Can be used by other players with the Neutral Commands permission
-			Griefing — Command: reportgriefing[player] — Can be used by other players with the Aggressive Commands permission
-			Exploits — Command: reportexploits[player] — Can be used by other players with the Aggressive Commands permission
-			Game Bug Exploits — Command: reportbugabuse[player] — Can be used by other players with the Aggressive Commands permission
-			Text Chat: Annoying Me — Command: reportannoying[player] — Can be used by other players with the Aggressive Commands permission
-			Text Chat: Using Hate Speech — Command: reporthate[player] — Can be used by other players with the Aggressive Commands permission
-			Voice Chat: Annoying Me — Command: reportvcannoying[player] — Can be used by other players with the Aggressive Commands permission
-			Voice Chat: Using Hate Speech — Command: reportvchate[player] — Can be used by other players with the Aggressive Commands permission
-		Kick
-			Smart — Removes the player by any means necessary. — Command: kick[player] — Can be used by other players with the Aggressive Commands permission
-			Breakup — A discrete kick that won't tell the target who did it. Unblockable when your target is not the host. — Command: breakup[player] — Can be used by other players with the Aggressive Commands permission
-			Breakdown — A discrete kick that won't tell the target who did it. Unblockable when your target is not the host. — Command: breakdown[player] — Can be used by other players with the Aggressive Commands permission
-			Love Letter — A discrete kick that won't tell the target who did it. Unblockable when you are the host. — Command: loveletterkick[player] — Can be used by other players with the Aggressive Commands permission
-			Orgasm — Blocked by popular menus. — Command: orgasmkick[player] — Can be used by other players with the Aggressive Commands permission
-			Blacklist — Adds the player to the blacklist like they were vote kicked, but kicks them like a desync. Only available when you are the host. — Command: blacklist[player] — Can be used by other players with the Aggressive Commands permission
-			Host — Kicks the player using the vote kick mechanism. Unblockable when you are the host, but you might be karma'd for it. — Command: hostkick[player] — Can be used by other players with the Aggressive Commands permission
-			Non-Host — Kicks the player using script events. Blocked by most menus. — Command: nonhostkick[player] — Can be used by other players with the Aggressive Commands permission
-			Invalid Pickup — Blocked by most menus. — Command: pickupkick[player] — Can be used by other players with the Aggressive Commands permission
-		Crash
-			Elegant — Blocked by most menus. — Command: crash[player] — Can be used by other players with the Toxic Commands permission
-			Next-Gen — Blocked by popular menus. — Command: ngcrash[player] — Can be used by other players with the Toxic Commands permission
-			Burger King Foot Lettuce — Blocked by popular menus. — Command: footlettuce[player] — Can be used by other players with the Toxic Commands permission
-			Vehicular Manslaughter — Blocked by popular menus. — Command: slaughter[player] — Can be used by other players with the Toxic Commands permission
-		
+- **crash[player]** — Elegant Crash
+- **ngcrash[player]** — Next-Gen Crash
+- **footlettuce[player]** — Burger King Foot Lettuce Crash
+- **slaughter[player]** — Vehicular Manslaughter Crash
