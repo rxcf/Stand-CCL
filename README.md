@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://cdn.discordapp.com/icons/948318760786342008/a_712ab34950f69d6f6f62d76c117862fb.png" alt="Stand CCL"></a>
+ <img src="https://cdn.discordapp.com/icons/948318760786342008/a_712ab34950f69d6f6f62d76c117862fb.png" alt="Stand CCL">
 </p>
 
 <h3 align="center">Stand CCL</h3>
