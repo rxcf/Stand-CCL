@@ -29,7 +29,6 @@
 ## Friendly Commands<a name = "friendly_cmds"></a>
 
 - **allguns** — Get Weapons
-- **wanted [0 to 5]** — Set Wanted Level (0 to 5)
 - **autohealall [on/off]** — Auto Heal All
 - **bailall [on/off]** — Never Wanted All
 - **giveotrall [on/off]** — Off The Radar All
@@ -37,6 +36,11 @@
 - **ammoall** — Give All Ammo For Their Current Weapon
 - **paragiveall** — Give All Parachute
 - **gift[player]** — Gift Spawned Vehicle
+- **fixvehicle** — Fix Vehicle
+- **repairvehall** — Repair Everyone's Vehicles
+- **givevehgodall [on/off]** — Give Vehicle Godmode To All
+- **givenolockonall [on/off]** — Give No Vehicle Lock On To All
+- **givepowerall [1.00 to 20.00]** — Give Vehicle Engine Power Multiplier To All
 - **givesh[player]** — Give Script Host
 - **autoheal[player] [on/off]** — Auto Heal
 - **bail[player] [on/off]** — Never Wanted
@@ -47,6 +51,8 @@
 
 ## Neutral Commands<a name = "neutral_cmds"></a>
 
+- **tpwp** — Teleport To Waypoint
+- **wanted [0 to 5]** — Set Wanted Level (0 to 5)
 - **givecollectiblesall** — Give Collectibles All
 - **ceopayall [on/off]** — CEO Money Loop All
 - **cashall [0 to 60000]** — Drop Cash All
@@ -65,12 +71,13 @@
 - **as[player]** — Issue Commands On Their Behalf
 - **commendhelpful[player]** — Commend Helpful
 - **commendfriendly[player]** — Commend Friendly
-- **tpwp** - Teleport To Waypoint
 
 ## Rude Commands<a name = "rude_cmds"></a>
 
 - **noguns** — Remove Weapons
+- **summonall** — Summon All Players
 - **aptmeall** — Teleport All To Apartment Near Me
+- **aptwpall** — Teleport All To Apartment Near Waypoint
 - **apt1all** — Teleport All To Eclipse Towers
 - **disarmall [on/off]** — Disarm All
 - **bountyall [0 to 10000]** — Place Bounty All
@@ -96,6 +103,7 @@
 - **freezeall [on/off]** — Freeze All
 - **confuseall [on/off]** — Force Camera Forward All
 - **errorall [on/off]** — Transaction Error All
+- **casinotpall** — Teleport All To Casino
 - **missionall** — Force All Into Freemode Mission
 - **explodeall** — Explode All
 - **killvehall** — Kill Vehicle All
