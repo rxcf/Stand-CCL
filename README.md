@@ -65,6 +65,7 @@
 - **as[player]** — Issue Commands On Their Behalf
 - **commendhelpful[player]** — Commend Helpful
 - **commendfriendly[player]** — Commend Friendly
+- **tpwp** - Teleport To Waypoint
 
 ## Rude Commands<a name = "rude_cmds"></a>
 
