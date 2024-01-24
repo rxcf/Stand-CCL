@@ -44,7 +44,7 @@
 - `givevehgod[player] [on/off]` — Makes specific player's vehicles indestructible.
 - `givenolockon[player] [on/off]` — Makes specific player's vehicles immune to being locked on.
 - `givepower[player] [1.00 to 20.00]` — Modifies the engine power multiplier for specific player's vehicles.
-- `gift[player]` — Gifts specific player's current vehicle to them, allowing them to store it in their garage regardless of its value.
+- `gift[player]` — Gifts specific player's current vehicle to them, allowing them to store it in their garage.
 - `autoheal[player] [on/off]` — Keeps specific player's character at maximum health and armor.
 - `bail[player] [on/off]` — Keeps specific player's wanted level at zero all the time.
 - `giveotr[player] [on/off]` — Ensures specific player remains off the radar all the time.
