@@ -6,7 +6,7 @@
 
 ---
 
-<p align = "center">💬 Chat Commands List.</p>
+<p align = "center">💬 Chat Commands List. Made with Stand 116.</p>
 
 
 ## Table of Contents
@@ -44,7 +44,6 @@
 - `givevehgod[player] [on/off]` — Makes specific player's vehicles indestructible.
 - `givenolockon[player] [on/off]` — Makes specific player's vehicles immune to being locked on.
 - `givepower[player] [1.00 to 20.00]` — Modifies the engine power multiplier for specific player's vehicles.
-- `gift[player]` — Gifts specific player's current vehicle to them, allowing them to store it in their garage.
 - `autoheal[player] [on/off]` — Keeps specific player's character at maximum health and armor.
 - `bail[player] [on/off]` — Keeps specific player's wanted level at zero all the time.
 - `giveotr[player] [on/off]` — Ensures specific player remains off the radar all the time.
@@ -55,26 +54,41 @@
 
 ## Neutral Commands<a name = "neutral_cmds"></a>
 
-- `tpwp` — Teleport To Waypoint
 - `wanted [0 to 5]` — Set Wanted Level (0 to 5)
-- `givecollectiblesall` — Give Collectibles All
+- `givecollectiblesall` — Give All Collectibles to All Players
 - `ceopayall [on/off]` — CEO Money Loop All
-- `cashall [0 to 60000]` — Drop Cash All
-- `rpall [on/off]` — Drop RP All
-- `snackall [on/off]` — Drop P's & Q's All
-- `furryall` — Turn Everyone Into Random Animal 
-- `commendhelpfulall` — Commend Helpful All
-- `commendfriendlyall` — Commend Friendly All
-- `givecollectibles[player]` — Give Collectibles
+- `rpall` — Gives the player a bunch of RP. Can be used multiple times.
+- `figurinesall [on/off]` — Drop Casino Figurines
+- `cardsall [on/off]` — Drop Playing Cards
+- `snackall [on/off]` — Drop P's & Q's
+- `asall` — Issue Commands On Everyone's Behalf
+- `commendhelpfulall` — Helpful
+- `commendfriendlyall` — Friendly
+- `tp[player]` — Teleport To Them
+- `givecollectibles[player]` — Give All Collectibles
 - `ceopay[player] [on/off]` — CEO Money Loop
-- `cash[player] [0 to 60000]` — Drop Cash (0 to 60000)
-- `rp[player] [on/off]` — Drop RP
+- `rp[player]` — Give RP
+- `figurines[player] [on/off]` — Drop Casino Figurines
+- `cards[player] [on/off]` — Drop Playing Cards
 - `snack[player] [on/off]` — Drop P's & Q's
-- `furry[player]` — Turn Into Random Animal
-- `beast[player]` — Turn Into Beast
 - `as[player]` — Issue Commands On Their Behalf
-- `commendhelpful[player]` — Commend Helpful
-- `commendfriendly[player]` — Commend Friendly
+- `commendhelpful[player]` — Helpful
+- `commendfriendly[player]` — Friendly
+- `beast[player]` — Turn Into Beast - Exclusive to the Ultimate Edition
+- `tpwp` —  Teleport to Waypoint
+- `tpammunation` — Teleport to Ammu-Nation
+- `tpshootingrange` — Teleport to Ammu-Nation with Range
+- `tpbarbershop` — Teleport to Barber Shop
+- `tpclothesstore` — Teleport to Clothes Store
+- `tplsc` — Teleport to Los Santos Customs
+- `tptattooparlor` — Teleport to Tattoo Parlor
+- `tplsia` — Teleport to Los Santos International Airport
+- `tpmazehelipad` — Teleport to Maze Bank Tower Helipad
+- `tpfortzancudo` — Teleport to Fort Zancudo
+- `tpmtchiliad` — Teleport to Mount Chiliad
+- `tpcayoperico` — Teleport to Cayo Perico
+- `tpcasino` — Teleport to Casino
+- `tphigh` — Teleport to Very High Up
 
 ## Rude Commands<a name = "rude_cmds"></a>
 
@@ -84,16 +98,27 @@
 - `aptwpall` — Teleport All To Apartment Near Waypoint
 - `apt1all` — Teleport All To Eclipse Towers
 - `disarmall [on/off]` — Disarm All
+- `pwantedall [0 to 5]` — Set Wanted Level All
+- `ragdollall [on/off]` — Ragdoll All
+- `shakecamall [on/off]` — Shake Camera All
 - `bountyall [0 to 10000]` — Place Bounty All
 - `notifyremovedall [-2147483648 to 2147483647]` — Cash Removed
 - `notifystolenall [-2147483648 to 2147483647]` — Cash Stolen
 - `notifybankedall [-2147483648 to 2147483647]` — Cash Banked
 - `notifyspamall [on/off]` — Notification Spam
 - `novehsall` — Disable Driving Vehicles All
+- `chatmockall [on/off]` — Mock Chat Messages
+- `chatowoall [on/off]` — OwO-ify Chat Messages
 - `summon[player]` — Teleport To Me
 - `aptme[player]` — Teleport To Apartment Near Me
-- `apt1[player]` — Teleport To Eclipse Towers
+- `aptwp[player]` — Teleport Near My Waypoint
+- `apt1[player]` — Teleport To Eclipse Towers, Apt 31
 - `disarm[player] [on/off]` — Disarm
+- `ragdoll[player] [on/off]` — Ragdoll
+- `shakecam[player] [on/off]` — Shake Camera
+- `chatmock[player] [on/off]` — Mock Chat Messages
+- `chatowo[player] [on/off]` — OwO-ify Chat Messages
+- `pwanted[player] [0 to 5]` — Set Wanted Level
 - `bounty[player] [0 to 10000]` — Place Bounty
 - `notifyremoved[player] [-2147483648 to 2147483647]` — Cash Removed
 - `notifystolen[player] [-2147483648 to 2147483647]` — Cash Stolen
@@ -103,55 +128,65 @@
 
 ## Aggressive Commands<a name = "aggressive_cmds"></a>
 
-- `vacateall` — Teleport All To Cayo Perico
+- `casinotpall` — Teleport To Casino All
+- `slipperyall [on/off]` — Slippery Tyres All
 - `freezeall [on/off]` — Freeze All
 - `confuseall [on/off]` — Force Camera Forward All
-- `errorall [on/off]` — Transaction Error All
-- `casinotpall` — Teleport All To Casino
-- `missionall` — Force All Into Freemode Mission
+- `killall` — Kill All
+- `cageall` — Cage All
 - `explodeall` — Explode All
-- `killvehall` — Kill Vehicle All
-- `delvehall` — Delete Vehicle All
 - `vehkickall` — Kick From Vehicle All
-- `ceokickall` — CEO/MC Kick All
-- `ceobanall` — CEO/MC Ban All
+- `interiorkickall` — Kick From Interior All
 - `infiniteloadingall` — Infinite Loading Screen All
 - `ringall` — Infinite Phone Ringing All
-- `reportgriefingall` — Report Griefing All
-- `reportexploitsall` — Report Exploits All
-- `reportbugabuseall` — Report Game Bug Exploits All
-- `reportannoyingall` — Report Annoying Me All
-- `reporthateall` — Report Hate Speech All
-- `reportvcannoyingall` — Report Annoying Me All
-- `reportvchateall` — Report Using Hate Speech All
-- `kickall` — Smart Kick All
-- `breakupall` — Breakup Kick All
-- `blacklistall` — Blacklist Kick All
-- `hostkickall` — Host Kick All
-- `nonhostkickall`  — Non-Host Kick All
-- `vacate[player]` — Teleport To Cayo Perico
+- `missionall` — Force Into Freemode Mission All
+- `raidall` — Trigger Business Raid All
+- `reportgriefingall` — Report Griefing or Disruptive Gameplay All
+- `reportexploitsall` — Report Cheating or Modding All
+- `reportbugabuseall` — Report Glitching or Abusing Game Features All
+- `reportannoyingall` — Report Text Chat: Annoying Me All
+- `reporthateall` — Report Text Chat: Using Hate Speech All
+- `reportvcannoyingall` — Report Voice Chat: Annoying Me All
+- `reportvchateall` — Report Voice Chat: Using Hate Speech All
+- `casinotp[player]` — Teleport To Casino
+- `killveh[player]` — Kill Their Vehicle
+- `flipveh[player]` — Flip Their Vehicle
+- `spin[player] [on/off]` — Spin Their Vehicle
+- `empveh[player]` — EMP Their Vehicle
+- `igniteveh[player]` — Ignite Their Vehicle
+- `delveh[player]` — Delete Their Vehicle
+- `poptyres[player]` — Pop Tyres
+- `slingshot[player]` — Slingshot Their Vehicle
+- `lock[player] [on/off]` — Lock Doors
+- `turnaround[player]` — Turn Their Vehicle Around
+- `detachwing[player]` — Detach Aircraft Wing
+- `detachwheel[player]` — Detach Wheel
+- `slippery[player] [on/off]` — Slippery Tyres
+- `removedoors[player]` — Remove Doors
+- `destroyprop[player]` — Destroy Propellers
+- `breakofftailboom[player]` — Break Off Tail Boom
 - `freeze[player] [on/off]` — Freeze
 - `confuse[player] [on/off]` — Force Camera Forward
-- `error[player] [on/off]` — Transaction Error
-- `mission[player]` — Force Into Freemode Mission
+- `mugloop[player] [on/off]` — Mugger Loop - Exclusive to the Ultimate Edition
+- `kill[player]` — Kill
+- `cage[player]` — Cage
 - `explode[player]` — Explode
-- `killveh[player]` — Kill
-- `delveh[player]` — Delete
 - `vehkick[player]` — Kick From Vehicle
+- `interiorkick[player]` — Kick From Interior
 - `ceokick[player]` — CEO/MC Kick
-- `ceoban[player]` — CEO/MC Ban
 - `infiniteloading[player]` — Infinite Loading Screen
 - `ring[player]` — Infinite Phone Ringing
-- `reportgriefing[player]` — Griefing
-- `reportexploits[player]` — Exploits
-- `reportbugabuse[player]` — Game Bug Exploits
-- `reportannoying[player]` — Annoying Me
-- `reporthate[player]` — Using Hate Speech
-- `reportvcannoying[player]` — Annoying Me
-- `reportvchate[player]` — Using Hate Speech
+- `mission[player]` — Force Into Freemode Mission
+- `raid[player]` — Trigger Business Raid
+- `reportgriefing[player]` — Report Griefing or Disruptive Gameplay
+- `reportexploits[player]` — Report Cheating or Modding
+- `reportbugabuse[player]` — Report Glitching or Abusing Game Features
+- `reportannoying[player]` — Report Text Chat: Annoying Me
+- `reporthate[player]` — Report Text Chat: Using Hate Speech
+- `reportvcannoying[player]` — Report Voice Chat: Annoying Me
+- `reportvchate[player]` — Report Voice Chat: Using Hate Speech
 - `kick[player]` — Smart Kick
-- `breakup[player]` — Breakup Kick
-- `breakdown[player]` — Breakdown Kick
+- `aids[player]` — Pool's Closed Kick
 - `loveletterkick[player]` — Love Letter Kick
 - `orgasmkick[player]` — Orgasm Kick
 - `blacklist[player]` — Blacklist Kick
@@ -161,8 +196,7 @@
 
 ## Toxic Commands<a name = "toxic_cmds"></a>
 
-- `crashall`  — Elegant Crash All
 - `crash[player]` — Elegant Crash
-- `ngcrash[player]` — Next-Gen Crash
 - `footlettuce[player]` — Burger King Foot Lettuce Crash
 - `slaughter[player]` — Vehicular Manslaughter Crash
+- `steamroll[player]` — Steamroller Crash
