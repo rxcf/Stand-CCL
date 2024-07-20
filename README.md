@@ -1,4 +1,3 @@
-<div style="background-color: #25282c; padding: 20px;">
 <p align="center">
  <img src="https://cdn.discordapp.com/icons/948318760786342008/a_712ab34950f69d6f6f62d76c117862fb.png" alt="Stand CCL">
 </p>
@@ -201,4 +200,3 @@
 - `footlettuce[player]` — Burger King Foot Lettuce Crash
 - `slaughter[player]` — Vehicular Manslaughter Crash
 - `steamroll[player]` — Steamroller Crash
-</div>
