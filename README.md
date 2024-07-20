@@ -6,7 +6,7 @@
 
 ---
 
-<p align = "center">💬 Chat Commands List. Made with Stand 116.</p>
+<p align = "center">💬 Chat Commands List. Made with Stand 116.10</p>
 
 
 ## Table of Contents
@@ -24,7 +24,7 @@
 
 ## Spawn Commands<a name = "spawn_cmds"></a>
 
-- `spawn [model name]` — Spawn Vehicle
+- `spawn [model name]` — Spawn A Vehicle
 
 ## Friendly Commands<a name = "friendly_cmds"></a>
 
@@ -64,7 +64,7 @@
 - `asall` — Issue Commands On Everyone's Behalf
 - `commendhelpfulall` — Helpful
 - `commendfriendlyall` — Friendly
-- `tp[player]` — Teleport To Them
+- `tp[player]` — Teleport To Specified Player
 - `givecollectibles[player]` — Give All Collectibles
 - `ceopay[player] [on/off]` — CEO Money Loop
 - `rp[player]` — Give RP
@@ -75,7 +75,7 @@
 - `commendhelpful[player]` — Helpful
 - `commendfriendly[player]` — Friendly
 - `beast[player]` — Turn Into Beast - Exclusive to the Ultimate Edition
-- `tpwp` —  Teleport to Waypoint
+- `tpwp` —  Teleport to Your Waypoint
 - `tpammunation` — Teleport to Ammu-Nation
 - `tpshootingrange` — Teleport to Ammu-Nation with Range
 - `tpbarbershop` — Teleport to Barber Shop
