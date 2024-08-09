@@ -6,7 +6,7 @@
 
 ---
 
-<p align = "center">💬 Chat Commands List. Made with Stand 116.10</p>
+<p align = "center">💬 Chat Commands List. Made with Stand 24.8.1</p>
 
 
 ## Table of Contents
@@ -167,6 +167,7 @@
 - `breakofftailboom[player]` — Break Off Tail Boom
 - `freeze[player] [on/off]` — Freeze
 - `confuse[player] [on/off]` — Force Camera Forward
+- `soundspam[player] [on/off]` — Sound Spam
 - `mugloop[player] [on/off]` — Mugger Loop - Exclusive to the Ultimate Edition
 - `kill[player]` — Kill
 - `cage[player]` — Cage
