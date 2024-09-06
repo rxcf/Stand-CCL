@@ -6,7 +6,7 @@
 
 ---
 
-<p align = "center">💬 Chat Commands List. Made with Stand 24.8.1</p>
+<p align = "center">💬 Chat Commands List. Made with Stand 24.9.1</p>
 
 
 ## Table of Contents
@@ -158,6 +158,7 @@
 - `poptyres[player]` — Pop Tyres
 - `slingshot[player]` — Slingshot Their Vehicle
 - `lock[player] [on/off]` — Lock Doors
+- `vehdowngrade[player]` — Downgrades specific player's vehicle.
 - `turnaround[player]` — Turn Their Vehicle Around
 - `detachwing[player]` — Detach Aircraft Wing
 - `detachwheel[player]` — Detach Wheel
